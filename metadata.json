@@ -1,0 +1,6 @@
+{
+  "name": "FanteLink",
+  "description": "Premium English-to-Mfantse (Fante) linguistic translator and cultural assistant",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
