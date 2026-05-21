@@ -5,6 +5,7 @@ import path from 'path';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/FanteLink-/', // This tells Vite exactly where your folder is located!
   plugins: [
     react(),
     tailwindcss(),
@@ -18,7 +19,7 @@ export default defineConfig({
         background_color: '#1E293B',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/',
+        start_url: '.',
         icons: [
           {
             src: 'https://cdn-icons-png.flaticon.com/512/3898/3898082.png',
